@@ -9,17 +9,18 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="AbhiPackages">1.0</value>
+    <value name="ServicePackage">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">5</value>
+  <value name="build">6</value>
   <null name="description"/>
   <value name="created_date">17-03-2025 13:29:52 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-03-17T13:37:33.24029534Z</value>
+  <value name="lastUpdated">2025-03-17T13:51:40.804591931Z</value>
   <value name="wmProjectId">fl3e16f85ac57d4571f45e1f</value>
   <value name="creator">Abhishek Kumar</value>
 </Values>

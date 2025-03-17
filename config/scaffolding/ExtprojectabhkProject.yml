@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/ak879753
   gitUsername: ak879753
   gitBranch: main
+- name: ServicePackage
+  gitServerName: abhk
+  gitUrl: https://github.com/ak879753
+  gitUsername: ak879753
+  gitBranch: main
 services:
 - serviceName: project.extprojectabhk.integrations:test
   packages:
