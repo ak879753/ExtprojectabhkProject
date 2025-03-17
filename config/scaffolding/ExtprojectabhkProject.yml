@@ -8,7 +8,21 @@ packages:
   gitUsername: ak879753
   gitBranch: main
 - name: AbhiPackages
+  version: "1.0"
   gitServerName: abhk
   gitUrl: https://github.com/ak879753
   gitUsername: ak879753
   gitBranch: main
+services:
+- serviceName: project.extprojectabhk.integrations:test
+  packages:
+  - name: ExtprojectabhkProject
+    version: "1.0"
+  - name: AbhiPackages
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.53
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2042
